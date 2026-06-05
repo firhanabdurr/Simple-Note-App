@@ -1,0 +1,8 @@
+package com.firhan.simplenoteapp.domain.usecase
+
+data class NoteUseCases(
+    val getNotes: GetNotesUseCase,
+    val deleteNote: DeleteNoteUseCase,
+    val addNote: AddNoteUseCase,
+    val getNote: GetNotesUseCase
+)
