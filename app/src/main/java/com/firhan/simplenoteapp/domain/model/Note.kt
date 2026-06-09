@@ -8,6 +8,12 @@ data class Note(
     val color: Int
 ) {
     companion object {
-        val noteColors = listOf(0xFFFFAB91, 0xFFF48FB1, 0xFF81DEEA, 0xFFCFD8DC, 0xFFFFF59D)
+        val noteColors = listOf(
+            0xFFFFAB91.toInt(),
+            0xFFF48FB1.toInt(),
+            0xFF81DEEA.toInt(),
+            0xFFCFD8DC.toInt(),
+            0xFFFFF59D.toInt()
+        )
     }
 }
